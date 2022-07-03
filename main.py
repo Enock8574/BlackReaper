@@ -1,4 +1,4 @@
-import os
+from scripts.ddos import *
 def ascii():
 
     print("  ______ _            _     ______  ")                         
@@ -21,9 +21,8 @@ menu()
 op=int(input("Ingrese una opcion: "))
 while op !=0:
     if op == 1:
-        os.system('cls')
-        print("pa que quieres hacer eso")
         print("\n")
+        ddos_func()
         pass
     elif op == 2:
         print("XD")
